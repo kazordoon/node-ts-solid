@@ -15,7 +15,10 @@ module.exports = {
       'module-resolver',
       {
         alias: {
-          '@config': './src/config'
+          '@config': './src/config',
+          '@entities': './src/entities',
+          '@providers': './src/providers',
+          '@repositories': './src/repositories'
         }
       }
     ]
